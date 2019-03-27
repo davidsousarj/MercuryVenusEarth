@@ -124,9 +124,9 @@ for i in xrange(0,len(t)-1):
 	pygame.draw.rect(screen, blue , planet3, 0)
 	pygame.draw.rect(screen, white, score,   0)
 
-	d1="Dist. media Mercurio-Terra = %.6f AU" %Av_ME
-	d2="Dist. media Venus-Terra    = %.6f AU" %Av_VE
-	tempo="Tempo = %.3f / %.3f Anos" %(t[i],t[-1])
+	d1="Average Distance Mercury-Earth = %.6f AU" %Av_ME
+	d2="Average Distance Venus-Earth   = %.6f AU" %Av_VE
+	tempo="Time Elapsed = %.3f / %.3f Years" %(t[i],t[-1])
 	label1 = myfont.render(d1, 1, blue, white)
 	label2 = myfont.render(d2, 1, blue, white)
 	label3 = myfont.render(tempo, 1, blue, white)
